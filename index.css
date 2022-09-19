@@ -1,0 +1,106 @@
+body {
+    padding-top: 40px;
+    width: 900px;
+    margin: auto;
+}
+/*===header===*/
+#logo{
+    width: 20%;
+}
+.header-main{
+    background-color: orange;
+    padding: 0 5px 0 30px;
+    display: flex; /*cho các thành phần theo chiều nang*/
+    justify-content:space-between; /*căn 2 đầu*/
+    align-items: center; /*căn theo trục dọc*/
+}
+.menu {
+    margin: 0;padding: 0;
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: wheat;
+
+}
+.menu li a:hover {
+    text-decoration: underline;
+}
+form {
+    float: right;
+}
+/*===conttac===*/
+
+.conttac{
+    width: 50px;
+    background-color: rgb(59, 59, 154);
+    border: 2px solid rgb(129, 129, 52);
+    float: left;
+}
+/*===right===*/
+.right{
+    width: 550px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    float: left;
+}
+img {
+    width: 80%;
+    
+}
+/*===left===*/
+#logo1{
+    width: 10%;
+}
+.left{
+    width: 200;
+    border: 2px solid forestgreen !important ;
+    
+
+}
+
+.left ol li{
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    grid-gap: 14px;
+    margin: 16px 0 0;
+    padding: 16px 0 0;  
+}
+
+#anh1 {
+    width: 30%;
+}
+.anhtitle{
+    width: 80%;
+
+}
+.anhtitle1{
+    width: 90%;
+
+}
+
+.news{
+    border: 1px solid rgb(34, 24, 24);
+    display: grid;
+    grid-template-columns: 2fr 400px;
+    grid-gap: 14px;
+    margin: 16px 5px 5px;
+    padding: 16px 5px 5px;  
+    
+}
+.news a {
+    text-decoration: none;
+    color: black;
+   
+   
+}
+.news h4 {
+
+}
+/*===footer===*/
+.footer {
+    clear: both;
+}
